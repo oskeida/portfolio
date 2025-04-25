@@ -1,0 +1,74 @@
+.グラフィック作品個別 {
+    width:1000px;
+    
+     & .画像 {
+        margin-top:90px;
+        text-align:center;
+     }
+    
+}
+.文 {
+width:1000px;
+text-align:center;
+line-height:2;
+& .タイトル {
+    font-size:2rem;
+    font-weight:bold;
+}
+& .詳細 {
+
+}
+}
+.グラフィック作品個別２ {
+    width:1000px;
+     & .画像２ {
+        margin-top:90px;
+        text-align:center;
+     }
+    
+    
+}
+.文２ {
+width:1000px;
+text-align:center;
+line-height:2;
+& .タイトル２ {
+    font-size:2rem;
+    font-weight:bold;
+}
+& .詳細２ {
+
+}
+}
+
+
+
+
+
+
+
+.ページコンタクト {
+    margin-top:300px;
+    width:1000px;
+    height:700px;
+    & .コンタクト {
+        font-size:2rem;
+        font-weight:lighter;
+    }
+    & .コンタクト横並び {
+        display:flex;
+        justify-content:space-around;
+        & .コンタクト縦並び2 {
+
+        }
+        & .コンタクト縦並び2 {
+            & .場所 {
+                font-size:2rem;
+            }
+            & .場所詳細 {
+                font-size:1.2rem;
+                line-height:3;
+            }
+        }
+    }
+}

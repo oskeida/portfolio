@@ -1,0 +1,119 @@
+.ページメイン {
+    width:1000px;
+    height:1000px;
+    background-color:white;
+    & .固定タブ {
+        display:flex;
+        justify-content:space-between;
+        font-size:1.2rem;
+        font-weight:bold;
+        margin-bottom: 30px;
+    }
+}
+.ページ私について {
+    width:1000px;
+    margin-top:50px;
+    background-color:white;
+   & .自己紹介横並び {
+    display:flex;
+    justify-content:space-around;
+& .自己紹介文並び {
+    & .about {
+        font-size:2rem;
+        font-weight: lighter;
+    }
+    & .名前 {
+        font-size:4rem;
+        font-weight:bolder;
+        letter-spacing: 3px;
+    }
+    & .紹介文 {
+        line-height: 3;
+        letter-spacing:7px;
+        font-size:1.2rem;
+        font-weight:bolder
+        }
+}
+   } 
+}
+.ページ作品 {
+        margin-top:100px;
+    width:1000px;
+    & .作品 {
+        font-size:2rem;
+        font-weight:lighter;
+    }
+& .作品並び１ {
+display: flex;
+}
+& .作品並び２ {
+    display: flex;
+}
+
+}
+.ページスキル {
+    margin-top:100px;
+
+        width:1000px;
+        height:600px;
+        & .スキル {
+            font-size:2rem;
+            font-weight:lighter;
+        }
+        & .可能なデザイン {
+            font-size:2rem;
+            font-weight:bolder;
+        }
+        .スキル横並び１ {
+            margin:0 0 150px 0;
+            display:flex;
+            justify-content:space-around;
+                & .可能なデザイン文１ {
+                    font-size:1.2rem;
+                }
+                & .可能なデザイン文２ {
+                    font-size:1.2rem;
+                }
+        }
+        & .可能なソフト {
+            font-size:2rem;
+            font-weight:bolder;
+        }
+        & .スキル横並び２ {
+            display:flex;
+            justify-content:space-around;
+                & .可能なソフト文１ {
+                font-size:1.2rem;
+                }
+                & .可能なソフト文２ {
+                font-size:1.2rem;
+                }
+        }
+
+}
+.ページコンタクト {
+    width:1000px;
+    margin-top:170px;
+
+    height:700px;
+    & .コンタクト {
+        font-size:2rem;
+        font-weight:lighter;
+    }
+    & .コンタクト横並び {
+        display:flex;
+        justify-content:space-around;
+        & .コンタクト縦並び2 {
+
+        }
+        & .コンタクト縦並び2 {
+            & .場所 {
+                font-size:2rem;
+            }
+            & .場所詳細 {
+                font-size:1.2rem;
+                line-height:3;
+            }
+        }
+    }
+}
